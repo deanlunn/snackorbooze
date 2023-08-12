@@ -77,7 +77,7 @@ function App() {
             render={(props) => <AddForm addItem={handleAddItem} {...props} />}
           />
           <Route>
-            <p>Hmmm. I can't seem to find what you want.</p>
+            <p>Whoops, No Snacks or Booze here.</p>
           </Route>
         </Switch>
       </main>
